@@ -27,7 +27,7 @@ const Form = () => {
   };
 
   return (
-    <div className="formContainer">
+    <div className="formContainer" id="form">
       <ToastContainer />
       <div className="forwardIcon">
         <img src={backward} />

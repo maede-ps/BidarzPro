@@ -6,10 +6,10 @@ const Nav = () => {
     <header className="header">
       <nav className="nav">
         <div className="nav-button">
-          <a href="/">شروع ترید</a>
+          <a href="#form">شروع ترید</a>
         </div>
 
-        <a href="/">
+        <a href="https://maede-ps.github.io/BidarzPro">
           <h1>بیدارز پرو</h1>
           <img
             src={headerLogo}

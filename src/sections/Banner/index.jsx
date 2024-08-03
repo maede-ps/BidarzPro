@@ -18,7 +18,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="banner-button">
-        <a href="/">ثبت نام فوری</a>
+        <a href="#form">ثبت نام فوری</a>
       </div>
       <div className="bannerImage">
         <img src={banner} alt="banner image" />

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerLogo">
-        <a href="/">
+        <a href="https://maede-ps.github.io/BidarzPro">
           <img
             src={headerLogo}
             alt="logo"
