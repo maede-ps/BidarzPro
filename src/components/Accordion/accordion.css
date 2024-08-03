@@ -1,0 +1,132 @@
+/* activate toggle */
+.accordion_item .button {
+  background-color: #090801;
+  color: white;
+  direction: rtl;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  gap: 15px;
+  width: 95%;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 0;
+  transition: background-color 0.3s ease;
+}
+
+.accordion_item.active .button {
+  background-color: #010f14; /* Adjust the color as needed */
+}
+
+.button img {
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.accordion_item span {
+  color: #f2b80c;
+  font-size: 25px;
+  margin-right: auto;
+}
+
+.answer_wrapper {
+  height: 324px;
+  border: 1px solid #f2b80c;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.answer_wrapper.open {
+  transition: height ease 0.2s;
+  border: 0;
+}
+
+.answer {
+  color: white;
+  text-align: justify;
+  padding: 10px;
+  direction: rtl;
+}
+
+.answer span {
+  color: white;
+  text-align: right;
+  font-size: 18px;
+}
+
+.answer img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 180px;
+}
+
+.accordionWrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background: url("../../assets/CoinsLeft.png");
+  margin: 35px 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.accordion {
+  width: 30%;
+  margin: 35px 0px;
+}
+
+.answer_wrapper {
+  width: 28%;
+  display: flex;
+  margin: 0 auto;
+  height: 440px;
+  backdrop-filter: blur(5px);
+}
+
+.accordion_item {
+  list-style: none;
+  display: flex;
+}
+
+.secondListItems button {
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+.secondListItems span {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.mainAccordion {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .answer_wrapper {
+    width: 96%;
+    display: block;
+    margin: auto;
+  }
+  .mainAccordion {
+    display: block;
+    width: 100%;
+    background: url("../../assets/CoinsLeft.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .accordion_item {
+    width: 100%;
+    display: block;
+  }
+  .accordionWrapper {
+    display: none;
+  }
+}

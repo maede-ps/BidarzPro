@@ -1,13 +1,432 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "diodrumarabic";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #02161d;
+}
+
+@font-face {
+  font-family: "diodrumarabic";
+  src: local("diodrumarabic"),
+    url("./fonts/DiodrumArabic-Semibold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bannerContainer {
+  background-image: url("../src/assets/background.png");
+  padding-top: 130px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.bannerSecondary,
+.bannerDescription {
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  direction: rtl;
+  gap: 5px;
+}
+.bannerDescription {
+  margin-bottom: 15px;
+}
+.bannerSpanYellow {
+  color: #f2b80c;
+  margin: 0px 5px;
+}
+.bannerSpanRed {
+  color: #f50148;
+  margin: 0px 5px;
+}
+
+.bannerImage {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bannerImage img {
+  z-index: 10;
+}
+.bannerBackImg {
+  position: absolute;
+  bottom: 60px;
+  z-index: 1;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1 !important;
+}
+.bannerImage img {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.banner-button {
+  width: max-content;
+  margin: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f50148;
+  border-radius: 20px;
+  padding: 0px 14px;
+}
+
+.headerText {
+  color: #f2b80c;
+  text-align: center;
+  font-size: 32px;
+}
+
+.headerSecondary {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* videoContent */
+.vidoImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.vidoImage img {
+  max-width: 80%;
+}
+
+.videoContainer {
+  background: url("./assets/statistics.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+}
+
+.coinContainer {
+  background: url("./assets/Frame.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -55px;
+}
+
+.coinContainer img {
+  max-width: 80%;
+}
+
+.listItemsContainer {
+  margin-top: 50px;
+}
+/* Form Section */
+
+.form {
+  direction: rtl;
+  background: #090801;
+  border: 1px solid #f2b80c;
+  border-radius: 8px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  width: 95%;
+  max-width: 95%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.formMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  z-index: 10;
+  padding: 50px 10px;
+}
+
+.formContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.forwardIcon img {
+  transform: scaleX(-1);
+  width: 200px;
+}
+
+.backwardIcon img {
+  width: 200px;
+}
+
+.formRightCoins,
+.formLeftCoins {
+  position: absolute;
+  top: 0;
+  display: block;
+  max-width: 50%;
+}
+
+.formRightCoins {
+  right: 0;
+}
+
+.formLeftCoins {
+  left: 0;
+}
+
+.headerTeaxt.formHeader {
+  text-align: justify;
+  text-align-last: justify;
+  font-size: 24px;
+}
+
+.headerSecondary.formHeader {
+  font-size: 20px;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.phoneForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.phoneForm button {
+  background: #f50148;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.linkText {
+  color: white;
+  font-size: 18px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.linkText svg {
+  color: #f2b80c;
+}
+
+.linkText span {
+  height: 50px;
+}
+
+.phoneInput {
+  border: 1px solid #f2b80c;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.17);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  gap: 15px;
+  padding: 5px 15px;
+  height: 42px;
+}
+
+.phoneInput input {
+  background: transparent;
+  border: 0;
+  outline: none; /* Remove the default outline */
+  transition: border-color 0.3s ease;
+  direction: ltr;
+  color: #f2b80c;
+}
+.downIcon {
+  display: none;
+}
+
+/* socialsContainer */
+
+.footerContainer {
+  background: #010f14;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+  padding: 5px 30px;
+  margin-top: 50px;
+}
+
+.footerName {
+  color: #a8a8a8;
+  display: flex;
+  height: 15px;
+  gap: 6px;
+  align-items: center;
+}
+
+.socialsContainer {
+  border: 1px solid #f2b80c;
+  width: 280px;
+  border-radius: 30px;
+  padding: 1px 20px;
+  color: white;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  direction: rtl;
+}
+
+.socialsContainer span {
+  height: 40px;
+}
+
+.socialsIcon {
+  gap: 10px;
+  display: flex;
+  font-size: 20px;
+  direction: rtl;
+  cursor: pointer;
+}
+
+.footerContainer a img {
+  margin: 0;
+  width: 100px;
+  height: 50px;
+}
+
+.footerContainer a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footerContainer h2 {
+  height: 70px;
+}
+
+.footerName span {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 40px;
+}
+.mobileSocials {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .headerText {
+    font-size: 24px;
+  }
+  .headerSecondary {
+    font-size: 24px;
+  }
+  .forwardIcon,
+  .backwardIcon {
+    display: none;
+  }
+  .headerTeaxt.formHeader {
+    font-size: 22px;
+  }
+
+  .headerSecondary.formHeader {
+    font-size: 16px;
+  }
+  .downIcon {
+    display: block;
+    transform: rotate(-90deg);
+    margin-top: -150px;
+  }
+
+  .formContainer {
+    flex-direction: column;
+    margin-top: -45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    position: relative;
+    margin-top: 111px;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .footerLogo a {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footerLogo a h2 {
+    height: 50px;
+  }
+
+  .socialsContainer {
+    position: absolute;
+    bottom: 250px;
+  }
+
+  .mobileSocials {
+    color: #f2b80c;
+    display: flex;
+    gap: 20px;
+    font-size: 27px;
+    cursor: pointer;
+  }
+  .bannerDescription {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-align-last: justify;
+    max-width: 73%;
+    align-items: initial;
+  }
+
+  .bannerBackImg {
+    bottom: 33px;
+  }
 }
