@@ -1,27 +1,25 @@
 import headerLogo from "../../assets/headerLogo.png";
-import './Nav.css'; // Import the CSS file
+import "./Nav.css"; // Import the CSS file
 
 const Nav = () => {
   return (
-    <header className='header'>
-      <nav className='nav'>
-         <div className='nav-button'>
-          <a href='/'>شروع ترید</a>
+    <header className="header">
+      <nav className="nav">
+        <div className="nav-button">
+          <a href="/">شروع ترید</a>
         </div>
-        
-        <a href='/'>
-        <h1>بیدارز پرو</h1>
+
+        <a href="/">
+          <h1>بیدارز پرو</h1>
           <img
             src={headerLogo}
-            alt='logo'
+            alt="logo"
             width={129}
             height={29}
-            className='nav-logo'
+            className="nav-logo"
           />
-        </a>    
-       
+        </a>
       </nav>
-      
     </header>
   );
 };

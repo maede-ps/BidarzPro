@@ -8,12 +8,12 @@ import VideoContent from "./sections/VideoContent";
 function App() {
   return (
     <div className="App">
-  <Nav/>
-  <Banner/>
-  <VideoContent/>
-  <ListItems/>
-  <Form/>
-  <Footer/>
+      <Nav />
+      <Banner />
+      <VideoContent />
+      <ListItems />
+      <Form />
+      <Footer />
     </div>
   );
 }

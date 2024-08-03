@@ -11,13 +11,13 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Validation
     if (phoneNumber.length !== 11) {
       toast.error("شماره موبایل باید 11 رقم باشد.");
       return;
     }
-    if( !phoneNumber.startsWith("09")){
+    if (!phoneNumber.startsWith("09")) {
       toast.error("شماره موبایل باید با 09 شروع شود.");
       return;
     }
