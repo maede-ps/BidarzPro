@@ -80,7 +80,8 @@ body {
 }
 
 .banner-button {
-  width: max-content;
+  width: 55%;
+  max-width: 300px;
   margin: auto;
   margin-bottom: auto;
   text-decoration: none;
@@ -92,8 +93,12 @@ body {
   background-color: #f50148;
   border-radius: 20px;
   padding: 0px 14px;
+  text-align: center;
 }
-
+.banner-button a {
+  height: 36px;
+  margin: auto;
+}
 .headerText {
   color: #f2b80c;
   text-align: center;
@@ -124,6 +129,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   overflow: hidden;
+  margin: 60px 0;
 }
 
 .coinContainer {
@@ -143,7 +149,7 @@ body {
 }
 
 .listItemsContainer {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 /* Form Section */
 
@@ -318,7 +324,7 @@ body {
 }
 
 .socialsContainer span {
-  height: 40px;
+  height: 36px;
 }
 
 .socialsIcon {
@@ -351,7 +357,7 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  height: 40px;
+  height: 36px;
 }
 .mobileSocials {
   display: none;
@@ -422,7 +428,7 @@ body {
     align-items: center;
     text-align: justify;
     text-align-last: justify;
-    max-width: 73%;
+    max-width: 83%;
     align-items: initial;
   }
 
