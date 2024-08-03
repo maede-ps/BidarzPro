@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BidarzPro/static/css/main.39652c36.css",
-    "main.js": "/BidarzPro/static/js/main.b6942150.js",
+    "main.js": "/BidarzPro/static/js/main.808ce000.js",
     "static/media/background.png": "/BidarzPro/static/media/background.648fe7d6acab1e167295.png",
     "static/media/banner.png": "/BidarzPro/static/media/banner.cb7997fc554a6d315636.png",
     "static/media/banner2.png": "/BidarzPro/static/media/banner2.42cb3c18ccfcc5f4f1ea.png",
@@ -19,10 +19,10 @@
     "static/media/item1.png": "/BidarzPro/static/media/item1.714a9c814620af58e1c4.png",
     "index.html": "/BidarzPro/index.html",
     "main.39652c36.css.map": "/BidarzPro/static/css/main.39652c36.css.map",
-    "main.b6942150.js.map": "/BidarzPro/static/js/main.b6942150.js.map"
+    "main.808ce000.js.map": "/BidarzPro/static/js/main.808ce000.js.map"
   },
   "entrypoints": [
     "static/css/main.39652c36.css",
-    "static/js/main.b6942150.js"
+    "static/js/main.808ce000.js"
   ]
 }
