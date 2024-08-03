@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/BidarzPro/static/css/main.1078a9f4.css",
+    "main.js": "/BidarzPro/static/js/main.9189546e.js",
+    "static/media/background.png": "/BidarzPro/static/media/background.648fe7d6acab1e167295.png",
+    "static/media/banner.png": "/BidarzPro/static/media/banner.cb7997fc554a6d315636.png",
+    "static/media/banner2.png": "/BidarzPro/static/media/banner2.42cb3c18ccfcc5f4f1ea.png",
+    "static/media/DiodrumArabic-Semibold.ttf": "/BidarzPro/static/media/DiodrumArabic-Semibold.039d5664bb5878e46711.ttf",
+    "static/media/Frame.png": "/BidarzPro/static/media/Frame.849c0824d6fbfdade66d.png",
+    "static/media/coins.png": "/BidarzPro/static/media/coins.2f039bfdcfedcf3dbafc.png",
+    "static/media/CoinsRight.png": "/BidarzPro/static/media/CoinsRight.b03a9045151a8bf6403e.png",
+    "static/media/statistics.png": "/BidarzPro/static/media/statistics.51319b775c2389d11ca7.png",
+    "static/media/CoinsLeft.png": "/BidarzPro/static/media/CoinsLeft.2429fbacac7d4e880795.png",
+    "static/media/backward.png": "/BidarzPro/static/media/backward.aa1f1c2a8cdca959e6a1.png",
+    "static/media/transformer 2 1.png": "/BidarzPro/static/media/transformer 2 1.b8ddf4c8e78c9afeb667.png",
+    "static/media/item2.png": "/BidarzPro/static/media/item2.6acd4c6b59411688c06b.png",
+    "static/media/item4.png": "/BidarzPro/static/media/item4.db2f5897d96cc9580e93.png",
+    "static/media/item5.png": "/BidarzPro/static/media/item5.848eaa09787641ea6c6a.png",
+    "static/media/item1.png": "/BidarzPro/static/media/item1.714a9c814620af58e1c4.png",
+    "index.html": "/BidarzPro/index.html",
+    "main.1078a9f4.css.map": "/BidarzPro/static/css/main.1078a9f4.css.map",
+    "main.9189546e.js.map": "/BidarzPro/static/js/main.9189546e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1078a9f4.css",
+    "static/js/main.9189546e.js"
+  ]
+}
